@@ -31,7 +31,7 @@ if flalb == 'b':
 
 elif flalb == 'a':
     max_num = int(input('Input the max number to check: '))
-    print('Abundant numbers:')
+    print('Abundant numbers: ')
     print('-----------------')
 
     sum_ = 0
@@ -45,7 +45,7 @@ elif flalb == 'a':
 
 elif flalb == 'f':
     length = int(input('Input the length of the sequence: '))
-    print('Fibonacci Sequence:')
+    print('Fibonacci Sequence: ')
     print('-----------------')
 
     first_number = 0
