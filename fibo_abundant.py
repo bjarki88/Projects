@@ -1,5 +1,5 @@
 flalb = input('Input f|a|b (fibonacci, abundant or both): ')
-if flalb == 'b':
+if  flalb == 'b':
     length = int(input('Input the length of the sequence: '))
     print('Fibonacci Sequence:')
     print('-------------------')
@@ -27,7 +27,6 @@ if flalb == 'b':
         if sum_ > abundant_numbers:
             print(abundant_numbers)
         sum_ = 0 
-
 
 elif flalb == 'a':
     max_num = int(input('Input the max number to check: '))
@@ -58,5 +57,6 @@ elif flalb == 'f':
         first_number = second_number
         second_number = fibonacci
         print(fibonacci)
+
 
 
